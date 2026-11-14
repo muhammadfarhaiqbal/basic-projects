@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App — Muhammad Farhan Iqbal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <h1>Weather App</h1>
+  <p class="sub">Free weather data from Open-Meteo — no API key needed.</p>
+  <form id="search-form">
+    <input id="city-input" type="text" placeholder="Enter a city, e.g. Lahore" autocomplete="off" maxlength="80">
+    <button type="submit">Search</button>
+  </form>
+  <p id="message" role="status"></p>
+  <section id="result" hidden>
+    <h2 id="city-name"></h2>
+    <p class="temp"><span id="temp"></span>°C</p>
+    <p id="condition"></p>
+    <ul>
+      <li>Humidity: <span id="humidity"></span>%</li>
+      <li>Wind: <span id="wind"></span> km/h</li>
+    </ul>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

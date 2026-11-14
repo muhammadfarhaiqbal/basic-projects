@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator — Muhammad Farhan Iqbal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="calc">
+  <h1>Calculator</h1>
+  <div id="display" aria-live="polite">0</div>
+  <div class="keys">
+    <button data-key="C" class="fn">C</button>
+    <button data-key="Backspace" class="fn">⌫</button>
+    <button data-key="%" class="op">%</button>
+    <button data-key="/" class="op">÷</button>
+
+    <button data-key="7">7</button>
+    <button data-key="8">8</button>
+    <button data-key="9">9</button>
+    <button data-key="*" class="op">×</button>
+
+    <button data-key="4">4</button>
+    <button data-key="5">5</button>
+    <button data-key="6">6</button>
+    <button data-key="-" class="op">−</button>
+
+    <button data-key="1">1</button>
+    <button data-key="2">2</button>
+    <button data-key="3">3</button>
+    <button data-key="+" class="op">+</button>
+
+    <button data-key="0" class="wide">0</button>
+    <button data-key=".">.</button>
+    <button data-key="=" class="equals">=</button>
+  </div>
+  <p class="hint">Tip: your keyboard works too — type numbers, + − * /, press Enter for =, Esc to clear.</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

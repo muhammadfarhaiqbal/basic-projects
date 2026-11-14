@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; background: linear-gradient(160deg, #38bdf8, #2563eb); color: #222; min-height: 100vh; display: flex; justify-content: center; padding: 40px 16px; }
+.app { background: #fff; width: 100%; max-width: 480px; padding: 28px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,.2); height: fit-content; }
+h1 { font-size: 26px; margin-bottom: 6px; }
+.sub { color: #666; font-size: 14px; margin-bottom: 18px; }
+#search-form { display: flex; gap: 8px; margin-bottom: 14px; }
+#city-input { flex: 1; padding: 11px 12px; font-size: 15px; border: 1px solid #cbd5e1; border-radius: 8px; }
+#city-input:focus { outline: 2px solid #2563eb; border-color: #2563eb; }
+button { cursor: pointer; border: none; border-radius: 8px; font-size: 14px; background: #2563eb; color: #fff; padding: 0 20px; font-weight: bold; }
+button:hover { background: #1d4ed8; }
+#message { color: #b91c1c; min-height: 20px; margin-bottom: 6px; }
+#result { text-align: center; padding-top: 8px; }
+#result h2 { font-size: 22px; }
+.temp { font-size: 52px; font-weight: bold; color: #2563eb; margin: 6px 0; }
+#condition { font-size: 18px; margin-bottom: 14px; }
+#result ul { list-style: none; display: flex; justify-content: center; gap: 24px; color: #555; }
